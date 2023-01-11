@@ -1979,6 +1979,10 @@ body._lock {
     font-size: calc(0.75rem + 3 * (100vw - 26.24875rem) / 816.02);
   }
 
+  .title_min {
+    font-size: calc(0.625rem + 0 * (100vw - 26.24875rem) / 816.02);
+  }
+
   .text {
     font-size: calc(0.8125rem + 2 * (100vw - 26.24875rem) / 816.02);
   }
