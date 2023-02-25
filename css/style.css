@@ -1555,6 +1555,8 @@ body._lock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1632,8 +1634,8 @@ body._lock {
 }
 
 .clouds-started-now__cloud_1 {
-  top: 0%;
-  left: -9.4444444444%;
+  top: 16.1073825503%;
+  left: -24.1340782123%;
 }
 
 .clouds-started-now__cloud_1 img {
@@ -1641,8 +1643,8 @@ body._lock {
 }
 
 .clouds-started-now__cloud_2 {
-  bottom: 8.9485458613%;
-  left: -3.125%;
+  bottom: 12.5279642058%;
+  left: -18.4357541899%;
 }
 
 .clouds-started-now__cloud_2 img {
@@ -1650,9 +1652,8 @@ body._lock {
 }
 
 .clouds-started-now__cloud_3 {
-  bottom: 6.711409396%;
-  right: -15.9722222222%;
-  width: 26.5625rem;
+  top: 42.9530201342%;
+  right: -20.1117318436%;
 }
 
 .clouds-started-now__cloud_3 img {
@@ -1923,16 +1924,12 @@ body._lock {
 
 @media (max-width: 90rem) {
   .clouds-started-now__cloud_1 {
-    top: calc(-100px + 70 * (100vw - 320px) / 1120);
-    left: calc(50px + -186 * (100vw - 320px) / 1120);
+    top: calc(36px + 36 * (100vw - 620px) / 820);
+    left: calc(-90px + -126 * (100vw - 620px) / 820);
   }
 
   .clouds-started-now__cloud_2 {
-    left: calc(20px + -95 * (100vw - 320px) / 820);
-  }
-
-  .clouds-started-now__cloud_3 {
-    right: calc(50px + -280 * (100vw - 320px) / 1120);
+    left: calc(-90px + -75 * (100vw - 620px) / 820);
   }
 }
 
@@ -2173,6 +2170,10 @@ body._lock {
     padding-bottom: calc(3.125rem + 125 * (100vw - 20rem) / 916);
   }
 
+  .accordion__description {
+    padding-left: calc(0.9375rem + 65 * (100vw - 20rem) / 916);
+  }
+
   .started-now__container-min {
     padding-top: calc(3.125rem + 41 * (100vw - 20rem) / 916);
   }
@@ -2359,7 +2360,7 @@ body._lock {
     left: -100%;
     width: 100%;
     height: 100%;
-    padding: 8.75rem 1.25rem 2.5rem 1.25rem;
+    padding: 6.25rem 1.25rem 2.5rem 1.25rem;
     background-color: #eeeeee;
     overflow: auto;
     -webkit-transition: 0.3s ease 0s;
@@ -2387,7 +2388,7 @@ body._lock {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 5rem;
+    height: 7.5625rem;
     background-color: rgb(255, 255, 255);
   }
 
@@ -2406,7 +2407,7 @@ body._lock {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 1.875rem;
+    row-gap: 1.25rem;
     padding-bottom: 1.25rem;
   }
 
