@@ -1977,7 +1977,7 @@ body._lock {
   }
 
   .title_min {
-    font-size: calc(0.625rem + 0 * (100vw - 26.24875rem) / 816.02);
+    font-size: calc(0.625rem + 0 * (100vw - 20rem) / 916);
   }
 
   .text {
