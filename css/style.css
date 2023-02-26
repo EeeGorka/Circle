@@ -386,6 +386,7 @@ body._lock {
   font-family: "Roboto";
   line-height: 1.2;
   /* 12px/10 */
+  color: #3d4f9f;
   text-transform: uppercase;
 }
 
@@ -1977,7 +1978,7 @@ body._lock {
   }
 
   .title_min {
-    font-size: calc(0.625rem + 0 * (100vw - 20rem) / 916);
+    font-size: calc(0.625rem + 0 * (100vw - 26.24875rem) / 816.02);
   }
 
   .text {
@@ -2698,6 +2699,10 @@ body._lock {
 
   .title_s14 {
     font-size: 0.75rem;
+  }
+
+  .title_min {
+    font-size: 0.625rem;
   }
 
   .text {
